@@ -1,5 +1,5 @@
 LDLIBS=-lncurses
-#CFLAGS=-Wall -Wshadow -Werror -Wextra -g
+CFLAGS=-Wall -Wshadow -Werror -Wextra -g
 OPTLEVEL=-O3
 COMPILER=gcc
 
