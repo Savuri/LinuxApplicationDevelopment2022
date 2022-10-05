@@ -9,6 +9,6 @@ int main(int argc, char *argv[]) {
               output("<DONE>");
      }
      else
-          usage('./prog');
+          usage("./prog");
        return 0;
 }
