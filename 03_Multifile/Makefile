@@ -1,4 +1,4 @@
-GENERATES = prog prog-a prog-so prog.so
+GENERATES = prog prog-a prog-so prog.so liboutput.so
 TRASH = *.o *~ o.* test_file_* *.a
 
 CC = cc
