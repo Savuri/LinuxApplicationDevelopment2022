@@ -1,0 +1,87 @@
+# Russian translations for PACKAGE package.
+# Copyright (C) 2022 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# yuri <1@1.1>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-11 15:31+0300\n"
+"PO-Revision-Date: 2022-11-21 15:20+0300\n"
+"Last-Translator: yuri <1@1.1>\n"
+"Language-Team: Russian <gnu@d07.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: /home/yuri/Aprog/CLionProjects/workC/src/I18n.c:129
+#, c-format
+msgid ""
+"I18n [-r] [--help]\n"
+"\n"
+"This program guesses the number 1...100 using the half division method\n"
+"\n"
+"First of all, it asks you to pick a number from 1 to 100.\n"
+"Then it asks \"Is your number more than 50?\"\n"
+"Based on the answer, selects a half-interval and repeats it in a cycle\n"
+"When it guesses, it answers\n"
+"\n"
+"Options:\n"
+"\t--help - print help\n"
+"\t-r - work with roman numbers\n"
+msgstr ""
+"I18n [-r] [--help]\n"
+"\n"
+"Эта программа угадывает число 1…100 методом половинного деления\n"
+"\n"
+"Первым делом просит загадать число от 1 до 100\n"
+"Затем спрашивает «Ваше число больше чем 50?»На основании ответа выбирает "
+"полуинтервала и повторяет его по циклуКогда догадается — отвечает\n"
+"\n"
+"Опции:\n"
+"\t--help - вывести help\n"
+"\t-r - режим работы с Римскими цифрами\n"
+
+#: /home/yuri/Aprog/CLionProjects/workC/src/I18n.c:148
+#, c-format
+msgid "Error: expected string\n"
+msgstr "Ошибка: ожидалась строка\n"
+
+#: /home/yuri/Aprog/CLionProjects/workC/src/I18n.c:167
+#, c-format
+msgid "Pick a natural number in range [%s, %s]\n"
+msgstr "Выберите натуральное число в отрезке [%s, %s]\n"
+
+#: /home/yuri/Aprog/CLionProjects/workC/src/I18n.c:171
+#, c-format
+msgid ""
+"Is your number more than %s?\n"
+"Input yes if it is or any other string otherwise\n"
+msgstr ""
+"Ваше число больше чем %s?\n"
+"Введите да если это так и или любую другую строку иначе\n"
+
+#: /home/yuri/Aprog/CLionProjects/workC/src/I18n.c:182
+#, c-format
+msgid ""
+"Your number is %s! If not then you picked natural number not in range [%s, "
+"%s].\n"
+msgstr ""
+"Ваше число - %s! Если нет, то Вы выбрали натуральное число не из [%s, %s]\n"
+
+#: /home/yuri/Aprog/CLionProjects/workC/src/I18n.c:184
+#, c-format
+msgid "Bye!\n"
+msgstr "Пока!\n"
+
+#: /home/yuri/Aprog/CLionProjects/workC/src/I18n.c:198
+#, c-format
+msgid "Unexpected command line argument %s\n"
+msgstr "Неожиданное значение аргумента командной строки %s\n"
+
+#~ msgid "yes"
+#~ msgstr "да"
